@@ -11,7 +11,7 @@ A small program demonstrating the following concepts in Rust:
 
 Also explored Ownership and Borrowing in GDB.
 
-***What to know:***
+**What to know:**
 
 All variables are immutable by default
 
@@ -24,3 +24,8 @@ References can be either mutable or immutable
 There can be multiple immutable references at the same time
 Rust supports both signed and unsigned integers.
 
+**Getting Rust debugging going in VSCode:**
+ * Install - C/C++ (Windows) & CodeLLDB (Linux) extentions
+ * Debug -> Add Config - C++ (Windows) & LLDB (Linux)
+ * It detecst Config.toml, save the launch.json and good to go
+ * src: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
